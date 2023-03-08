@@ -3,21 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{49916195-354C-4635-A524-84A4EC1D8F49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{49916195-354C-4635-A524-84A4EC1D8F49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{8F18CA06-B32D-4288-8A27-6ABEE8880E9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{8F18CA06-B32D-4288-8A27-6ABEE8880E9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{79E86313-2F87-4A3F-8E24-2D5CAC8F1035}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{79E86313-2F87-4A3F-8E24-2D5CAC8F1035}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence\Persistence.csproj", "{10EC210B-C498-4F2F-B238-B7112EB953DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence", "Persistence\Persistence.csproj", "{10EC210B-C498-4F2F-B238-B7112EB953DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{49916195-354C-4635-A524-84A4EC1D8F49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -36,5 +33,11 @@ Global
 		{10EC210B-C498-4F2F-B238-B7112EB953DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10EC210B-C498-4F2F-B238-B7112EB953DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10EC210B-C498-4F2F-B238-B7112EB953DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7895A646-2563-4D2D-8D7F-B7C3631DFA58}
 	EndGlobalSection
 EndGlobal
