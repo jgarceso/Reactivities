@@ -18,8 +18,8 @@ namespace Application.Activities
 
         public class Handler : IRequestHandler<Query, Activity>
         {
-            private DataContext _context;
-            public Handler(DataContext context)
+            private ReactivitiesDbContext _context;
+            public Handler(ReactivitiesDbContext context)
             {
                 _context = context;
             }
